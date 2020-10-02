@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #101820ff;
+  max-height: 100vh;
+  max-width: 100vw;
+  color: #fee715ff;
+  outline: none;
+}
+
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+footer {
+  position: fixed;
+  top: 97vh;
+  height: 10px;
+  width: 100%;
+  text-align: center;
+}
+.gol {
+  color: #fee715ff;
+}
+
+.pink {
+  color: #f65058ff;
+}
+
+body {
+  background: #101820ff;
+  color: #fee715ff;
+}
+
+main {
+  background: none;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.container {
+  background: none;
+}
+
+#head {
+  font-size: 50px;
+  font-weight: bold;
+  background: none;
+}
+
+#head:hover {
+  color: #f65058ff;
+}
+.cv-text {
+  margin-top: 0;
+  font-size: 13px;
+  color: #f65058ff;
+}
+.cv-pic-box {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  background-image: url("/img/cv-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.box {
+  align-items: center;
+  justify-content: start;
+  height: 35px;
+}
+.title {
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f65058ff;
+}
+.Edu-t {
+  font-size: 30px;
+}
+.desc {
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 20px;
+  line-height: 25px;
+}
+.nav-item {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: larger;
+  transition: all 0.2s ease-in;
+}
+
+.navbar-brand {
+  transition: all 0.3s ease-out;
+}
+
+.nav-item:hover {
+  color: #f65058ff;
+  font-size: 2rem;
+}
+
+#ico {
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.hh1 {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.small {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f65058ff;
+  background: none;
+}
+
+.flexIcon {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  justify-items: self-end;
+  position: fixed;
+  top: 440px;
+  background: none;
+}
+.doge {
+  margin: 0 auto;
+  display: flex;
+}
+#ico:hover {
+  cursor: pointer;
+  transform: scale(1.7);
+}
+
+.smaller {
+  display: flex;
+  background: none;
+  justify-content: space-evenly;
+  margin: 0 20px;
+}
+
+.socBar {
+  position: absolute;
+  height: 400px;
+  top: 170px;
+  width: 7px;
+  margin-left: 4px;
+  background: #fee715ff;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+
+.mouse {
+  display: grid;
+  background: none;
+  transform: translateY(-50%);
+  align-items: center;
+  justify-content: space-around;
+  margin: 270px 0;
+}
+
+.fa-chevron-down {
+  font-size: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.downbtn {
+  font-size: 50px;
+  position: relative;
+  top: 300px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+@keyframes dot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fa-chevron-down:hover {
+  transform: scale(1.2);
+  transform: rotate(360deg);
+}
+.fa-chevron-down:active {
+  transform: scale(4);
+  transform: rotate(360deg);
+}
+
+#callBtn {
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  justify-self: center;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-globe {
+  background: none;
+  justify-content: center;
+}
+
+#point:hover {
+  color: #f65058ff;
+}
+
+.fa-bars:hover {
+  color: #f65058ff;
+}
+
+.fa:hover {
+  color: #f65058ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #f65058ff, #fee715ff);
+  border-radius: 100%;
+}
+.grad {
+  background: -webkit-linear-gradient(45deg, #f65058ff, #fee715ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 70px;
+}
+.mail-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#mail {
+  font-size: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease-in;
+}
+.c-body {
+  text-align: center;
+  margin-top: 10px;
+}
+.contact-box {
+  padding: 10px;
+  border: 0.5px solid #fee715ff;
+  border-radius: 15px;
+  overflow: hidden;
+
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 5px;
+}
+.contact-box-img {
+  padding: 10px;
+}
+#mail:hover {
+  font-size: 53px;
+  color: #f65058ff;
+}
+.fb-pic {
+  border-radius: 50%;
+  box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.6);
+}
+.name {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.number {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.number:hover {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(45deg, #f65058ff, #fee715ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name:hover {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(45deg, #f65058ff, #fee715ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number {
+  font-weight: bold;
+  color: #f65058ff;
+}
+.card {
+  border: 1px solid #fee715ff;
+  border-radius: 10% 0 0 0;
+}
+.down-card p small {
+  position: absolute;
+}
+.card-text {
+  color: rgb(255, 247, 176);
+}
+.down-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#btn-card {
+  margin: 0;
+  padding: 0;
+  width: 730px;
+  height: 50px;
+  line-height: 50px;
+}
+@media screen and (min-width: 1900px) {
+  #btn-card {
+    width: 900px;
+  }
+  .downbtn {
+    top: 200px;
+  }
+  .box .desc img {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .downbtn {
+    top: 270px;
+  }
+  .box .desc img {
+    height: 35px;
+    width: 35px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #btn-card {
+    width: 450px;
+  }
+  .box .desc img {
+    height: 20px;
+    width: 20px;
+  }
+  .box .title {
+    font-size: 20px;
+  }
+  .box .desc {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .box {
+    height: 40px;
+  }
+  .navbar-toggler {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #btn-card {
+    width: 310px;
+  }
+  .box .desc img {
+    height: 20px;
+    width: 20px;
+  }
+  .box .title {
+    font-size: 15px;
+  }
+  .box .desc {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .box {
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+  }
+  .downbtn {
+    position: relative;
+    top: 200px;
+  }
+  #mouse {
+    position: relative;
+    top: 300px;
+    margin: 0;
+  }
+  .flexIcon {
+    margin: 20px;
+  }
+  .navbar-toggler {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  #btn-card {
+    width: 200px;
+  }
+  .flexIcon {
+    margin: 20px;
+  }
+  .box .desc img {
+    height: 20px;
+    width: 20px;
+  }
+  .box .title {
+    font-size: 11px;
+  }
+  .box .desc img {
+    height: 10px;
+    width: 10px;
+    line-height: 20px;
+  }
+  .box .desc {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .box {
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+  }
+  .navbar-toggler {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    align-items: center;
+  }
+  .mail-box small {
+    font-size: 12px;
+  }
+  .box {
+    align-items: center;
+    justify-content: start;
+    height: 40px;
+  }
+  #mail {
+    font-size: 2.4rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+  }
+  #mail:hover {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .box {
+    align-items: center;
+    justify-content: start;
+    height: 65px;
+  }
+  #btn-card {
+    width: 150px;
+    z-index: 1;
+  }
+  .box .desc img {
+    display: none;
+  }
+  .hh1 {
+    font-size: 5rem;
+  }
+  .navbar-toggler {
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+    align-items: center;
+  }
+  mail-box small {
+    font-size: 8px;
+  }
+  #mail {
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+  }
+  #mail:hover {
+    font-size: 2.5rem;
+  }
+}
