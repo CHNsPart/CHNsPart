@@ -293,6 +293,9 @@ body::-webkit-scrollbar-thumb {
   font-size: 53px;
   color: #f65058ff;
 }
+.contact-box {
+  height: 60px;
+}
 .fb-pic {
   border-radius: 50%;
   box-shadow: 10px 9px 7px -7px rgba(0, 0, 0, 0.6);
@@ -302,8 +305,15 @@ body::-webkit-scrollbar-thumb {
   transition: all 0.2s ease-in;
 }
 .number {
+  font-size: 28px;
   transition: all 0.2s ease-in;
   cursor: pointer;
+}
+.fbname {
+  font-size: 23px;
+}
+span.number.fbname:hover {
+  font-size: 24px;
 }
 .number:hover {
   font-size: 2rem;
@@ -335,6 +345,9 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.number {
+  border: none;
 }
 #btn-card {
   margin: 0;
@@ -383,6 +396,19 @@ body::-webkit-scrollbar-thumb {
   .box {
     height: 40px;
   }
+  #hero {
+    font-size: 40px;
+    background: none;
+    margin: 30px 0 30px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .Edu-t {
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .navbar-toggler {
     display: flex;
     justify-content: center;
@@ -398,6 +424,13 @@ body::-webkit-scrollbar-thumb {
     height: 20px;
     width: 20px;
   }
+  .name-wrap {
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+    overflow-wrap: unset;
+    margin: 0;
+  }
   .box .title {
     font-size: 15px;
   }
@@ -408,12 +441,15 @@ body::-webkit-scrollbar-thumb {
   }
   .box {
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     height: 60px;
   }
   .downbtn {
     position: relative;
     top: 200px;
+  }
+  #hero {
+    font-size: 70px;
   }
   #mouse {
     position: relative;
@@ -434,6 +470,7 @@ body::-webkit-scrollbar-thumb {
   #btn-card {
     width: 200px;
   }
+
   .flexIcon {
     margin: 20px;
   }
@@ -443,6 +480,14 @@ body::-webkit-scrollbar-thumb {
   }
   .box .title {
     font-size: 11px;
+  }
+  #hero {
+    font-size: 30px;
+  }
+  .Edu-t {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
   }
   .box .desc img {
     height: 10px;
@@ -483,21 +528,55 @@ body::-webkit-scrollbar-thumb {
     font-size: 2.5rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
   .box {
     align-items: center;
     justify-content: start;
-    height: 65px;
+    height: 25px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .name-wrap {
+    width: 50px;
+    margin: 0;
+  }
+
+  #hero {
+    margin-left: 0;
+  }
+  .box #inside {
+    margin-left: 10px;
+  }
+  body {
+    height: 100vh;
+    width: 100%;
   }
   #btn-card {
     width: 150px;
     z-index: 1;
   }
+  .box .hero-title {
+    margin-bottom: 0;
+  }
+  .box .title {
+    margin: 0;
+  }
+  .box .desc {
+    margin: 5px;
+    font-size: 10px;
+    height: 20px;
+    padding: 0;
+  }
   .box .desc img {
     display: none;
+    margin: 0;
   }
   .hh1 {
     font-size: 5rem;
+  }
+  .Edu-t {
+    font-size: 10px;
   }
   .navbar-toggler {
     display: flex;
@@ -516,5 +595,124 @@ body::-webkit-scrollbar-thumb {
   }
   #mail:hover {
     font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 382px) {
+  button.navbar-toggler {
+    margin-left: 250px;
+    margin-top: 0;
+    padding-top: 0;
+    width: 10%;
+    margin-top: -70px;
+  }
+  nav {
+    width: 80%;
+  }
+  .hh1 {
+    font-size: 70px;
+    margin: 0;
+    height: 600px;
+    margin-top: 0;
+    padding: 0;
+  }
+  a.downbtn {
+    margin: 0;
+    z-index: 1;
+    padding: 0;
+    top: 20px;
+  }
+
+  header {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body,
+  html {
+    height: 100vh;
+  }
+  .fa-chevron-down {
+    margin: 0;
+    position: relative;
+    top: -100px;
+  }
+  #hero.Edu-t {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+  a#head.navbar-brand.gol {
+    font-size: 40px;
+    width: 50%;
+  }
+  #callBtn {
+    position: absolute;
+    top: 300px;
+  }
+  .Edu-t {
+    margin: 0 auto;
+  }
+  #mouse {
+    height: 100vh;
+  }
+  #mail {
+    font-size: 25px;
+  }
+  .mail-box {
+    align-items: flex-start;
+    margin-top: 20%;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .mail-box small {
+    font-size: 10px;
+  }
+  h1#mail.grad {
+    margin: 0;
+    height: 50px;
+  }
+  .fb-pic {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .contact-box {
+    width: 50%;
+    border: none;
+  }
+  .contact-box:nth-child(3) {
+    width: 60%;
+  }
+  .number:hover {
+    font-size: 19px;
+  }
+  .number:active {
+    font-size: 19px;
+  }
+  span.number {
+    background: transparent;
+  }
+  #hero {
+    font-size: 15px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .box {
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .Edu-t {
+    font-size: 30px;
+  }
+  .contact-box h3 {
+    font-size: 18px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
   }
 }
