@@ -1,5 +1,5 @@
 let mail = document.querySelector("#mail");
-let fbname = document.querySelector(".name");
+let fbname = document.querySelector("#fbname");
 mail.addEventListener("click", () => {
   window.open("https://mailto:imchn24@gmail.com", "_blank");
 });
