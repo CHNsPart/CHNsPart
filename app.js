@@ -1,8 +1,10 @@
 var express = require("express");
 const { response } = require("express");
 const { render } = require("ejs");
+const colors = require("colors")
 var app = express();
-const port = process.env.PORT || 8080;
+require('dotenv').config({ path: "./config.env" })
+const PORT = process.env.PORT || 8080;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
@@ -22,4 +24,8 @@ app.get("/contact", function (req, res) {
   res.render("contact");
 });
 
-app.listen(port, () => console.log("Started.............."));
+app.listen(PORT, () => console.log(
+    `Server is on live in`.brightMagenta.bold + `\n@...@\n#...#\n%...%\n#...#\n&...&\n`.green + `{ ${process.env.NODE_ENV} }`.brightGreen.bold + ` mode on port `.black.bold.dim.italic +
+    `{ ${PORT} }`.brightMagenta +
+    `\n\n ------------- `.america + `CHNsBOT`.trap + ` -------------\n`.america)
+);

@@ -56,10 +56,60 @@ main {
 #head:hover {
   color: #f65058ff;
 }
+#headLogo {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.float2 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 26px;
+  right: 40px;
+  font-size: 30px;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 101;
+  background: transparent;
+}
+
+#whatsapp:hover {
+  color: white;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.C.Round {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
 .cv-text {
   margin-top: 0;
   font-size: 13px;
   color: #f65058ff;
+}
+.justify {
+  align-content: center;
+  align-items: center;
 }
 .cv-pic-box {
   margin: 0 auto;
