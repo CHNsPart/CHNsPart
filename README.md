@@ -16,7 +16,7 @@
       <img alt="Facebook" src="https://img.shields.io/badge/Facebook-Touhidul Islam Chayan-FEE715?&style=flat&logo=facebook" />
     </a>
     <a href="https://dribbble.com/chnspart/">
-      <img alt="Github" src="https://img.shields.io/badge/Dribbble-CHNsPart-FEE715?&style=flat&logo=dribbble" />
+      <img alt="Dribbble" src="https://img.shields.io/badge/Dribbble-CHNsPart-FEE715?&style=flat&logo=dribbble" />
     </a>
     <a href="https://behance.net/chnspart/">
       <img alt="Behance" src="https://img.shields.io/badge/Behance-CHNsPart-FEE715?logoColor=0056FF&style=flat&logo=behance" />
@@ -34,6 +34,8 @@
 🌱 I’m currently learning Nest.JS & Next.JS
 
 📫 How to reach me ```imchn24@gmail.com```
+
+🏀 My designs Portfolios **https://behance.net/chnspart/** ※ **https://dribbble.com/chnspart/**
 
 🌐 My website **https://chnspart.com**
 
