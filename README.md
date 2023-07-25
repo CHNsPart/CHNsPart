@@ -1,6 +1,6 @@
 <p align="center" valign="center">
     <a href="http://chnspart.com/" target="blank"><img src="https://user-images.githubusercontent.com/58574102/194750412-e38fc8b8-d2a1-48f3-ac58-c306bf6806c8.png"  width="200" alt="CHNsPart Logo" /></a>
-  <a href="http://nestjs.com/" target="blank"><img src="https://user-images.githubusercontent.com/58574102/194799394-a80ed9c9-7bcd-40da-8fd5-c148fa016ffe.png"  width="200" alt="CHNsPart Logo" /></a>
+  <a href="http://chnspart.com/" target="blank"><img src="https://user-images.githubusercontent.com/58574102/194799394-a80ed9c9-7bcd-40da-8fd5-c148fa016ffe.png"  width="200" alt="CHNsPart Logo" /></a>
 </p>
 <br>
  <p align="center">
