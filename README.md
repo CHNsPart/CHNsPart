@@ -21,7 +21,7 @@
     <a href="https://behance.net/chnspart/">
       <img alt="Behance" src="https://img.shields.io/badge/Behance-CHNsPart-FEE715?logoColor=0056FF&style=flat&logo=behance" />
     </a>
-    <a href="https://instagram.net/chnspart/">
+    <a href="https://instagram.com/chnspart/">
       <img alt="Instagram" src="https://img.shields.io/badge/Instagram-CHNsPart-FEE715?&style=flat&logo=instagram" />
     </a>
  </p>
