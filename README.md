@@ -43,7 +43,6 @@
 
 
 <p align="center" valign="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chnspart&show_icons=true&theme=dracula" />
   <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chnspart&langs_count=8&theme=dracula&layout=compact" />
 </p>
 
